@@ -1,7 +1,23 @@
-.intro{
+@font-face {
+    font-family: London;
+    src: url('./fonts/OldLondon.ttf');
+}
+
+.main-title{
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -70%);
+    font-family: London;
+    font-size: 7em;
+}
+.ouroboros{
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 600px;
+    height: 600px;
 }

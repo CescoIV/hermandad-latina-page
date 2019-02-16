@@ -1,3 +1,5 @@
-<p>
-  nav-bar works!
-</p>
+<div class="header">
+  <span *ngFor="let i of navBar">
+    <a href="{{i.route}}" >{{i.name}}</a>
+  </span>    
+</div>

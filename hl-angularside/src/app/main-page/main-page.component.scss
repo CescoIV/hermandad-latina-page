@@ -33,25 +33,3 @@
 .bar-item:hover{
     color: grey;
 }
-.header{
-    overflow: hidden;
-    background-color: black;
-    color: white;  
-}
-
-.header a{
-    top: 0;
-    left: 0;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    /* border-radius: 4px; */
-}
-.header a:hover{
-    background-color: white;
-    color: black;
-}

@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
+  // navBar=["Builds", "Mundo/Lore", "Discord"];
+  navBar = [
+    {name: "Builds", route: "/builds"},
+    {name: "Mundo/Lore", route: "/lore"},
+    {name: "Discord", route: "/discord"}
+  ];
+
   constructor() { }
 
   ngOnInit() {

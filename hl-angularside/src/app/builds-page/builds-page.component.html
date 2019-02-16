@@ -1,8 +1,10 @@
 <h1>Builds</h1>
 <p>Aqui encontraras builds para PvP o PvE de las classes </p>
 
-<div class="Build Boxes">
-  <div *ngFor="let i of objectKeys(builds)">
-    {{i}} {{builds[i]}}
+<div class="builds">
+  <div class='build-box' *ngFor="let i of builds">
+    <h2>{{i.class}}</h2>
+    <p>"{{i.name}}"</p>
+    <span>{{i.patch}}</span>
   </div>
 </div>

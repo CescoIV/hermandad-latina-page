@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BuildsPageComponent implements OnInit {
   objectKeys = Object.keys;
-  builds = {
-    'Stamina Templar': 'insert description here',
-    'Stamina Nightblade': 'insert description here',
-  }
+  builds = [
+    {class: 'Stamina Nightblade', name:"Markynaz", patch: "Murkmire"},
+    {class: 'Stamina Templar', name:"Light Bringer", patch: "Murkmire"},
+  ];
   constructor() { }
 
   ngOnInit() {

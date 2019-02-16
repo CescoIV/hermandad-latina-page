@@ -1,0 +1,10 @@
+.builds{
+    display: flex;
+    flex-direction: row;
+}
+.build-box{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}

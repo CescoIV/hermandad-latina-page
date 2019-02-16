@@ -1,9 +1,9 @@
-<p>
+<!-- <p>
   main-page works!
 </p>
-<img class='fullBg' [src]="page.image" alt="tamriel">
+<img class='fullBg' [src]="page.image" alt="tamriel"> -->
 
-<mat-card>
+<!-- <mat-card>
   <mat-card-header>
     <mat-card-title><h1>{{page.title}}</h1></mat-card-title>
     <mat-card-subtitle>{{page.subtitle}}</mat-card-subtitle>
@@ -11,4 +11,20 @@
   <mat-card-content>
     {{page.content}}
   </mat-card-content>
-</mat-card>
+</mat-card> -->
+
+<div class="header">
+  <a href="#default" *ngFor="let i of navBar">{{i}}</a>
+</div>
+<div class='main'>
+  <div class='intro'>
+      <img class ='ouroboros' src="../../assets/imgs/ourbouros-transparent.png" alt="ourbouros">
+      <p class='main-title'>Hermandad Latina</p>
+      <div class='main-bar'>
+        <p>El Centro para la comunidad Latina</p>
+          <!-- <span class='bar-item'>Noticias</span>
+          <span class='bar-item'>Guias</span>
+          <span class='bar-item'>Communidad</span> -->
+      </div>    
+  </div>
+</div>

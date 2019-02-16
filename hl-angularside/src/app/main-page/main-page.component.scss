@@ -1,0 +1,57 @@
+@font-face {
+    font-family: London;
+    src: url('../fonts/OldLondon.ttf');
+}
+
+.main-title{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-family: London;
+    font-size: 7em;
+}
+.main-bar{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    /* font-family: London; */
+    font-size: 3em;
+}
+.ouroboros{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+}
+.bar-item:hover{
+    color: grey;
+}
+.header{
+    overflow: hidden;
+    background-color: black;
+    color: white;  
+}
+
+.header a{
+    top: 0;
+    left: 0;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    /* border-radius: 4px; */
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+}
